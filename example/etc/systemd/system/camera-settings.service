@@ -1,0 +1,13 @@
+ 
+[Unit]
+Description=Adjust Camera Settings Using v4l2-ctl
+After=multi-user.target 
+Documentation = man::v4l2-ctl(1)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/camera_settings.sh 
+
+[Install]
+WantedBy=multi-user.target 
+
