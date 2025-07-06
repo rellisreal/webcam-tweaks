@@ -43,7 +43,7 @@ Documentation = man::v4l2-ctl(1)
 
 [Service]
 Type=oneshot
-ExecStart=/usr/local/bin/camera_settings.sh 
+ExecStart=/bin/bash /usr/local/bin/camera_settings.sh 
 
 [Install]
 WantedBy=multi-user.target 
