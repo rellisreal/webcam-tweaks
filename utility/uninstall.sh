@@ -43,8 +43,8 @@ do
   esac 
 done 
 
-systemctl daemon-reload
-systemctl reset-failed
+$(systemctl daemon-reload)
+$(systemctl reset-failed)
 
 exit 0 
 

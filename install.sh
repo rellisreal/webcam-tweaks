@@ -68,11 +68,11 @@ WantedBy=timers.target
 
 
 #Run/Enable the service
-sudo systemctl enable camera-settings.service 
-sudo systemctl start camera-settings.service 
+$(systemctl enable "camera-settings.service") 
+$(systemctl start "camera-settings.service") 
 
 #Run/Enable the timer 
-sudo systemctl enable camera-settings.timer 
-sudo systemctl start camera-settings.timer 
+$(systemctl enable "camera-settings.timer") 
+$(systemctl start "camera-settings.timer") 
 
 
