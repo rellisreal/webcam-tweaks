@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #Check Root Perms
 if [[ "$EUID" = 0 ]]; then
