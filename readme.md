@@ -1,4 +1,5 @@
-# Auto-Adjust Camera Settings
+
+# Auto-Adjust Camera Settings (ARCHIVED - I LOST INTEREST IN THIS IT WON'T WORK)
 
 ### Purpose: 
 Script made, to automate the painful process of the brightness/exposure settings of my Logitech HD Pro Webcam C920
